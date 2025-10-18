@@ -1,0 +1,14 @@
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\bin\Debug\FormProduk.exe.config
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\bin\Debug\FormProduk.exe
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\bin\Debug\FormProduk.pdb
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.csproj.AssemblyReference.cache
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.FormKategori.resources
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.FormProdukDetail.resources
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.FormProdukUtama.resources
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.Properties.Resources.resources
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.csproj.GenerateResource.cache
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.csproj.CoreCompileInputs.cache
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.exe
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.pdb
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.exe.config
+C:\Users\Radiant\source\repos\Radiant213\misi_its_5\FormProduk\obj\Debug\FormProduk.FormTransaksiPenjualan.resources
