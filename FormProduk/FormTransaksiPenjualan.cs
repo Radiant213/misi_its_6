@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -55,6 +55,7 @@ namespace FormProduk
             }
         }
 
+        // Ganti metode btnTambah_Click dengan versi ini (memakai txtJumlah dan C#7.3-compatible pattern)
         private void btnTambah_Click(object sender, EventArgs e)
         {
             if (cmbProduk.SelectedItem == null)
@@ -63,14 +64,19 @@ namespace FormProduk
                 return;
             }
 
-            int jumlah = (int)numJumlah.Value;
+            if (!int.TryParse(txtJumlah.Text, out int jumlah))
+            {
+                MessageBox.Show("Jumlah harus berupa angka.");
+                return;
+            }
+
             if (jumlah <= 0)
             {
                 MessageBox.Show("Jumlah harus lebih besar dari 0.");
                 return;
             }
 
-            if (cmbProduk.SelectedItem is not KeyValuePair<int, string> selected)
+            if (!(cmbProduk.SelectedItem is KeyValuePair<int, string> selected))
             {
                 MessageBox.Show("Data produk tidak valid.");
                 return;
@@ -148,8 +154,8 @@ namespace FormProduk
                     MessageBox.Show("Transaksi berhasil disimpan!");
 
                     dgvItem.Rows.Clear();
-                    cmbProduk.SelectedIndex = -1; // ✅ reset UI
-                    numJumlah.Value = 1;
+                    cmbProduk.SelectedIndex = -1;
+                    txtJumlah.Text = "1";
                     HitungTotal();
                 }
                 catch (Exception ex)
